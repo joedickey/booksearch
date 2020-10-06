@@ -12,7 +12,7 @@ class App extends Component {
   componentDidUpdate() {
     let query = this.state.searchTerm
     let filter = this.state.filter === 'none' ? '' : (this.state.filter === 'free-ebooks' ? `&filter=free-ebooks` : `&filter=paid-ebooks`)
-    const key = 'AIzaSyCQDgE3cmsbyWjN7Zx65_ryW7kXK7KMBBg'
+    const key = ''
     const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&key=${key}${filter}`
 
     fetch(url)
