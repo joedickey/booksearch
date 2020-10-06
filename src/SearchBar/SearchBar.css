@@ -1,0 +1,15 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 10px 0px;
+    width: 100vw;
+}
+
+label {
+    padding-right: 5px;
+}
+
+button {
+    margin-left: 5px;
+}
